@@ -32450,5 +32450,6 @@ var code =
     'function foo() {\n"use strict";\n  var o = { a: 1, a: 2 };\n}\n\n;'
   + 'function bar() {\n\'use strict\';\n  var o = { a: 1, a: 2 };\n}';
 snippetify(code, { nonstrict: true });
+alert('loaded');
 
 },{"esprima":99}]},{},[31])
